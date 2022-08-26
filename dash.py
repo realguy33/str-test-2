@@ -10,5 +10,5 @@ button = st.button('click me')
 if(button == True):
   st.write('test')
   df = pd.DataFrame(np.random.randint(0,100,size=(10, 3)), columns=list('ABC')) 
-  df.to_csv('str-test-2/test.csv') 
+  df.to_csv('test.csv') 
   
