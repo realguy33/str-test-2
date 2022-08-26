@@ -16,4 +16,4 @@ if(button == True):
 button2 = st.button('click me please')
 if(button2 == True):
   x = pd.read_csv('test.csv')
-  print(df)
+  st.write(df)
