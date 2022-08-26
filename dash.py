@@ -12,3 +12,8 @@ if(button == True):
   df = pd.DataFrame(np.random.randint(0,100,size=(10, 3)), columns=list('ABC')) 
   df.to_csv('test.csv') 
   
+
+button2 = st.button('click me')
+if(button2 == True):
+  x = pd.read_csv('test.csv')
+  print(x)
